@@ -1,0 +1,8 @@
+
+.todo_list li::marker {
+    content: 'Todo ' counter(list-item)': ';
+    color:hotpink;
+    font-weight: 500;
+    font-size:1em;
+
+}
